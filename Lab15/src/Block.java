@@ -13,8 +13,9 @@ public class Block implements Locatable
 	private int yPos;
 	private int width;
 	private int height;
+	
 
-	private Color color;
+	private Color color = Color.WHITE;
 
 	public Block()
 	{
@@ -133,7 +134,10 @@ public class Block implements Locatable
 	}
 
    //add the other get methods
-    
+    public String toString()
+    {
+    	return xPos + " " + yPos + " " + width + " " + height + " " + color;
+    }
 
    //add a toString() method  - x , y , width, height, color
 }
