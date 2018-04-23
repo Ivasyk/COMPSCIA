@@ -1,6 +1,5 @@
 INDEX VERSION 1.130+H:\COMPSCIA\.metadata\.plugins\org.eclipse.jdt.core
 3580456661.index
-3785683442.index
 3871946219.index
 1281376111.index
 1259207542.index
